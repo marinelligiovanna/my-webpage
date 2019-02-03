@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+
+
+body{
+  font-family: 'Quicksand', sans-serif;
+}
+
+[class*='flex horizontal'] {
+  display: flex;
+  flex-direction: row;
+}
+
+[class*='flex vertical'] {
+  display: flex;
+  flex-direction: column;
+}
+
+[class*='top attached'] {
+  top: 0;
+}
+
+[class*='bottom attached'] {
+  bottom: 0;
+}
+
+[class*='sticky'] {
+  position: sticky;
+}
+
+[class*='fixed'] {
+  position: fixed;
+}
+
+[class*='left floated'] {
+  float: left;
+  margin-right: auto;
+}
+
+[class*='right floated'] {
+  float: right;
+  margin-left: auto;
+}

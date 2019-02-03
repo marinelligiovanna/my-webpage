@@ -1,0 +1,31 @@
+.section {
+  position: relative;
+  min-height: 300px;
+  overflow: hidden;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.section[class*='primary'] {
+  background: #fff; 
+}
+
+.section[class*='secondary'] {
+  background:#ccc;
+}
+
+.section[class*='inner'] {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 1.5em;
+}
+
+
+
+.section [class*='section content'] {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 80%;
+  max-width: 1080px;
+}
